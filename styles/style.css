@@ -1,0 +1,23 @@
+body{
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    height: 900px;
+}
+
+.row:nth-child(2n) .cell:nth-child(2n+1){
+    background-color:black;
+}
+
+.row:nth-child(2n+1) .cell:nth-child(2n){
+    background-color: black;
+}
+
+.cell {
+    border: 1px red solid;
+    height: 100px;
+    width: 100px;
+}
